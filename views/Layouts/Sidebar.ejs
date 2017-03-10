@@ -1,0 +1,109 @@
+<div id="demo-1" data-zs-src='["../../images/2.jpg", "../../images/1.jpg", "../../images/3.jpg"]' data-zs-overlay="dots">
+		<div class="demo-inner-content">
+		   <div class="header-top" style="background-color:white;position:fixed;z-index:9999;width:100%">
+		    <!-- /header-left -->
+		          <div class="header-left">
+				  <!-- /sidebar -->
+				        <div id="sidebar"> 
+						     <h4 class="menu">Menu</h4>
+						          <ul> 
+							     <li><a href="/drivers/ride-registration">Ride</a></li> 
+							   <li><a href="/drivers/registration">Drive</a></li>
+							   <li><a href="">Help</a></li>
+							   <li><a href="/drivers/registration">Become Own Boss</a></li> 
+							   <li><a href="">Career</a></li> 
+						   </ul>
+						   <div id="sidebar-btn">
+							   <span></span>
+							   <span></span>
+							   <span></span>
+						   </div>
+					   </div>
+
+							 <script>
+								  var sidebarbtn = document.getElementById('sidebar-btn');
+									var sidebar = document.getElementById('sidebar');
+								   sidebarbtn.addEventListener('click', function () {
+								  if(sidebar.classList.contains('visible')){
+										sidebar.classList.remove('visible'); 
+								   }else {
+										sidebar.className = 'visible';
+									}
+								  });
+								</script>
+					    <!-- //sidebar -->
+					  <div class="tag"><a href="../" style="color:black;font-style:bold"><img src="../../images/ct.png" height="40px" /></a></div> 
+					</div>
+				  <!-- //header-left -->
+		             <div class="search-box"> 
+					    <ul> 
+							<a href="/drivers/login"><button id="showRight" class="navig" style="color:black">LOGIN</button></a>
+							<a href="/drivers/ride-registration"><button id="showRight" class="navig" style="color:black">RIDE</button></a>
+						    <a href="/drivers/registration"><button id="showRight" class="navig" style="color:black">DRIVE</button> </a>
+							<a href="/drivers/login"><button id="showRight" class="navig" style="color:black">HELP</button> </a> 
+							<a href="/drivers/registration"><input type="submit" class="btn btn-success" value="BECOME OWN BOSS"/></a>
+							 <div class="cbp-spmenu-push">
+							<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+								<h3>Login</h3>
+							<div class="login-inner">
+								<div class="login-top">
+								 <form action="#" method="post">
+									<input type="text" name="email" class="email" placeholder="Email" required=""/>
+									<input type="password" name="password" class="password" placeholder="Password" required=""/>	
+									<input type="checkbox" id="brand" value="">
+									<label for="brand"><span></span> Remember me</label>
+								</form>
+								<div class="login-bottom">
+									<ul>
+										<li>
+											<a href="#">Forgot password?</a>
+										</li>
+										<li>
+											<form action="#" method="post">
+												<input type="submit" value="LOGIN"/>
+											</form>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+													
+							</div>
+							<div class="social-icons">
+							<ul> 
+								<li><a href="#"><span class="icons"></span><span class="text">Facebook</span></a></li>
+								<li class="twt"><a href="#"><span class="icons"></span><span class="text">Twitter</span></a></li>
+								<li class="ggp"><a href="#"><span class="icons"></span><span class="text">Google+</span></a></li>
+							</ul> 
+						</div>		
+							</div> 
+							</nav>
+						</div> 
+			<!--	<script src="../../js/classie2.js"></script>
+						<script>
+							var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+								showRight = document.getElementById( 'showRight' ),
+								body = document.body;
+				
+							showRight.onclick = function() {
+								classie.toggle( this, 'active' );
+								classie.toggle( menuRight, 'cbp-spmenu-open' );
+								disableOther( 'showRight' );
+							};
+				
+							function disableOther( button ) {
+								if( button !== 'showRight' ) {
+									classie.toggle( showRight, 'disabled' );
+								}
+							}
+						</script>-->
+						<!--Navigation from Right To Left-->
+						    </li>
+						</ul>
+						
+					</div>
+				
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+		    <!--banner-info-->

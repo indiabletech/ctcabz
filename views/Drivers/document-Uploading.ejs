@@ -1,0 +1,73 @@
+ 
+<%- include ../Layouts/Header.ejs %>	
+	<%- include ../Layouts/Sidebar.ejs %>		
+ 
+ <script>
+ function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result)
+                        .width(200)
+                        .height(200);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+ </script>
+	<!-- /bottom-banner --><br><br><br>
+	<div class="banner-bottom">
+	   <div class="container">
+	   
+	  
+	   
+          <div class="bottom-form">
+		 
+			<div>
+			
+				<div class="">
+				
+				</div>
+			
+			</div>
+			
+			<div class="inner-text">
+				
+			 <form action="#" method="post">
+		
+			
+			
+              	<div class="best-hot">
+					<center><img src=" ../../images/document.png" id="blah">	</center>
+					 <input type='file' onchange="readURL(this);" />
+                    <hr>
+              <h5>Take a photo of your document</h5>					
+					<br>
+					<p style="color:gray;" align="justify">Ensure all information is readable and not blurry.Make sure that all corners of the documents are visible.your document may not be accepted if it can not be read properly or all your corners are not visible.</p>
+					</div> 
+					
+					
+				<hr>
+					
+					<input type="submit"  value="Upload" class="glyphicon glyphicon-arrow-up" >
+					<center><p style="font-size:12px"><a href=""><i class="glyphicon glyphicon-arrow-left"></i>Back</a></p></center>
+					<br>
+					 
+					
+					
+					
+					</center>
+				</form> 
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- //bottom-banner -->
+	<!-- /slider1 -->
+			 
+		<div class="clearfix"></div>
+		<!-- //Services -->
+			<%- include ../Layouts/Footer.ejs %>		 	
